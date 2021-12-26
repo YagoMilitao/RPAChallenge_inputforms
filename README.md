@@ -22,7 +22,7 @@
  + ./Framework/*InitiAllApplications* - Open and login to applications used throughout the process
 
 2. **GET TRANSACTION DATA**
- + ./Framework/*GetTransactionData* - Fetches transactions from an Orchestrator queue defined by Config("OrchestratorQueueName") or any other configured data source
+ + ./Framework/*GetTransactionData* - Fetches transactions from an Excel file defined by Config or any other configured data source
 
 3. **PROCESS TRANSACTION**
  + *Process* - Process trasaction and invoke other workflows related to the process being automated 
